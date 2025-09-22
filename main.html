@@ -1,16 +1,36 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Calculator + Text Change App</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <!-- Calculator Section -->
+  <div class="container">
+    <input type="number" id="num1" placeholder="Enter first number">
+    <select id="operator">
+      <option value="+">+</option>
+      <option value="-">-</option>
+      <option value="*">*</option>
+      <option value="/">/</option>
+    </select>
+    <input type="number" id="num2" placeholder="Enter second number">
+    <button id="calculate">Calculate</button>
+    <div id="result"></div>
+  </div>
 
+  <!-- Text Containers -->
+  <div class="container">
+    <div class="division">Hello</div>
+    <div class="division">Welcome</div>
+    <div class="division">To</div>
+    <div class="division">My</div>
+    <div class="division">Class</div>
+  </div>
+
+  <button id="change_text">Change Text</button>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
