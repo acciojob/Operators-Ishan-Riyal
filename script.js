@@ -25,7 +25,7 @@ document.getElementById("calculate").addEventListener("click", function () {
         result = "Invalid operation";
     }
   }
-  document.getElementById("result").textContent = "Result: " + result;
+document.getElementById("result").textContent = result;
 });
 
 // Text Change Logic
